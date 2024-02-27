@@ -1,11 +1,15 @@
 the most important thing is:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 black life is more important for all of us1s
 =======
 black life is more important for all of us
 >>>>>>> feature
 =======
 black life is more important for all of us 11111
+>>>>>>> feature
+=======
+black life is more important for all of us 
 >>>>>>> feature
 
