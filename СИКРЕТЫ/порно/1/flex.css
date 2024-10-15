@@ -1,0 +1,229 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-size: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight:initial;}
+
+
+
+
+body {font-family: Arial, Helvetica , sans-serif;}
+
+
+
+
+
+
+.wrapper {min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+} 
+.content {flex: 1 1 auto;}
+
+/* первый блок */
+.hi {background-color: #445162;
+    color: aliceblue;}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+   }
+   
+   
+   @media (max-width: 1300px){.container{max-width: 970px;}}
+   @media (max-width: 992px){.container{max-width: 750px;}}
+   @media (max-width: 767px){.container{max-width: none;}}
+    
+    
+.hi_row {display: flex;
+    padding: 40px 40px;
+justify-content: space-between;}
+.hi_body {}
+.hi_title {
+    text-shadow: #FC0 1px 0 10px;font-size: 50px;margin: -10px  0 20px 0
+}
+.hi_list { }
+.hi_list li {background:url(icons8-галочка-48.png);background-repeat: no-repeat;background-position: 0 1px;background-size: 20px;
+    font-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    }
+.hi_image1 {}
+.hi_image2 {}
+.car {font-size: 30px;
+     text-align: center;
+    line-height: 40px;}
+img { width: 300px;height: 180px;background-size:cover;}
+
+
+
+/* ВТОРОЙ БЛОК!!!!!!! */
+.what_row{display: flex;
+    padding: 50px 0 50px 0}
+
+
+
+
+
+#poster {width: 500px;
+    height: 300px;
+    flex: 0 0 500px;
+    
+}
+
+
+
+.main_text {flex: 1 1 auto;
+    padding: 0 40px;
+    
+    line-height: 20px;
+    
+    
+
+}
+p {margin-bottom: 15px;}
+
+
+
+
+
+
+.title{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    margin-bottom: 30px
+     ;
+    }
+
+
+
+
+    /* ТРЕТИЙ БЛОК */
+.columns {background-color: rgb(218, 218, 212);
+          padding: 50px 0; }
+
+.main_name{text-align: center;
+            font-size:30px;
+            font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            margin-bottom:30px;
+        }
+.columns_row{display: flex;flex-wrap: wrap;
+margin: 0 -8px;}
+.columns_column {flex: 1 1 50%;
+padding: 0 8px;    
+margin: 0 0 30px 0;}
+.item_row {display: flex;}
+.itam_image {flex 0 0 200px}
+.item_body {flex: 1 1 auto;
+            padding:0 0 0 15px}
+
+
+.item_title {
+    line-height: 24px;
+    color: #451161;
+    font-size: 24px;
+    margin: 0 0 13px 0;
+}
+.item_text {font-size: 15px;
+color: #333333;
+line-height: 24px;}
+
+
+
+
+
+
+
+/* ЧЕТВЕРТЫЙ БЛОК */
+.vertical {padding: 50px;}
+.vertical_title_title {text-align: center;
+margin: 0 0 30px 0; font-size: 25px;}
+.vertical_body {
+    max-width: 990px;
+    margin: 0 auto;
+    
+}
+.vertical_row{ display:flex;
+    margin: 0 -22.5px;
+}
+.vertical_column {display: flex;
+    /* чтобы выровнять по высоте блоки */
+    flex: 0 1 33.333%;
+    padding: 0 22.5px;
+}
+.vertical_itemn {background-color: rgb(49, 47, 47);
+color: white;
+border-radius: 5px;
+border: 1px solid black;
+padding: 0 0 20px 0;
+display:flex;
+flex-direction: column;}
+
+.vertical_subtitle {text-align: center;
+font-size: 24px;
+padding: 12px 0;}
+.vertical_lable {text-align: center;}
+
+.vertical_lable {background-color: white;
+    color: black;
+    padding: 15px 0;
+    font-size: 30px;
+    
+}
+
+.vertical_text {padding: 20px;
+font-size: 14px;
+line-height: 24px;
+flex: 1 1 auto
+}
+
+
+.vertical_btn {
+    display: block;
+    margin: 0 20px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: o 20px;
+    color: #451161;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ФУТЕР */
+.footer {background-color: rgb(1, 12, 12);
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;}
+.footer_row {}
+.footer_text { 
+    color: rgb(247, 244, 244);
+    letter-spacing: 0.5px;}
